@@ -1,17 +1,20 @@
 import RightArrowIcon from '@/icons/RightArrowIcon';
 import Image from 'next/image';
 import { SpotlightCard } from '../Spotlight';
+import Link from 'next/link';
 
 export default function ProjectCard({
   title,
   description,
   logo,
   illustration,
+  link,
 }: {
   title: string;
   description: string;
   logo: string;
   illustration: string;
+  link: string;
 }) {
   return (
     <SpotlightCard className="rounded-[32px]">
@@ -30,12 +33,16 @@ export default function ProjectCard({
           <p className="text-[15px] md:text-base text-dark-gray">
             {description}
           </p>
-          <div className="mt-[16px] md:mt-auto flex items-center gap-2 cursor-pointer hover:underline group/link">
+          <Link
+            href={link}
+            target="_blank"
+            className="mt-[16px] md:mt-auto flex items-center gap-2 cursor-pointer hover:underline group/link"
+          >
             <p className="text-base md:text-lg font-medium dark:text-white group-hover/link:-mr-1 transition-all">
               Voir plus
             </p>
             <RightArrowIcon />
-          </div>
+          </Link>
         </div>
         <Image
           src={`/img/projects/illustration/${illustration}`}
