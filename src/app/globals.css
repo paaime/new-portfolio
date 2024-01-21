@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: #0d0d0d;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.dark-gradient {
+  background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
+}
+
+.light-shadow-button {
+  box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+}
+
+.dark-shadow-button {
+  box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: calc(100vh - 80px);
+  }
+}
+
+/* PAGE TRANSITION */
+.slide-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0d0d0d;
+  transform-origin: bottom;
+  z-index: 100;
+}
+
+.slide-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0d0d0d;
+  transform-origin: top;
+  z-index: 100;
+}
