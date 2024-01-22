@@ -16,7 +16,7 @@ export default function Header() {
       <nav>
         <ul className="flex items-center gap-[40px] font-medium dark:text-light-gray">
           <li>
-            <Link href={'/'}>
+            <Link href={'/'} aria-label="Home">
               <Image src="/img/logo.webp" alt="Logo" width={40} height={40} />
             </Link>
           </li>
@@ -38,15 +38,20 @@ export default function Header() {
         </ul>
       </nav>
       <div className="flex items-center gap-[24px]">
-        <a href="https://www.malt.fr/profile/paularthuraime" target="_blank">
+        <a
+          href="https://www.malt.fr/profile/paularthuraime"
+          target="_blank"
+          aria-label="Malt"
+        >
           <MaltIcon />
         </a>
-        <a href="https://github.com/paaime" target="_blank">
+        <a href="https://github.com/paaime" target="_blank" aria-label="Github">
           <GithubIcon />
         </a>
         <a
           href="https://www.linkedin.com/in/paul-arthur-aimé-a081b9252"
           target="_blank"
+          aria-label="Linkedin"
         >
           <LinkedinIcon />
         </a>

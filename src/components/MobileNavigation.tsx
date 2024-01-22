@@ -25,7 +25,7 @@ export default function MobileNavigation() {
             pathname === '/' && activeClass
           } w-full h-[40px] flex justify-center items-center transition-all duration-300`}
         >
-          <Link href="/">
+          <Link href="/" aria-label='Home'>
             <HomeIcon />
           </Link>
         </li>
@@ -34,7 +34,7 @@ export default function MobileNavigation() {
             pathname === '/about' && activeClass
           } w-full h-[40px] flex justify-center items-center transition-all duration-300`}
         >
-          <Link href="/about">
+          <Link href="/about" aria-label='About'>
             <UserIcon />
           </Link>
         </li>
@@ -43,7 +43,7 @@ export default function MobileNavigation() {
             pathname === '/projects' && activeClass
           } w-full h-[40px] flex justify-center items-center transition-all duration-300`}
         >
-          <Link href="/projects">
+          <Link href="/projects" aria-label='Projets'>
             <ProjectsIcon />
           </Link>
         </li>
@@ -52,7 +52,7 @@ export default function MobileNavigation() {
             pathname === '/skills' && activeClass
           } w-full h-[40px] flex justify-center items-center transition-all duration-300`}
         >
-          <Link href="/skills">
+          <Link href="/skills" aria-label='Compétences'>
             <SkillsIcon />
           </Link>
         </li>
@@ -61,7 +61,7 @@ export default function MobileNavigation() {
             pathname === '/contact' && activeClass
           } w-full h-[40px] flex justify-center items-center transition-all duration-300`}
         >
-          <Link href="/contact">
+          <Link href="/contact" aria-label='Contact'>
             <ContactIcon />
           </Link>
         </li>

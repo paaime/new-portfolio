@@ -94,6 +94,8 @@ export default function About() {
           <Button
             className="w-full md:w-auto flex lg:hidden mt-24"
             type="primary"
+            tag="a"
+            href="/contact"
           >
             <SendIcon />
             Contact

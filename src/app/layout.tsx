@@ -8,6 +8,7 @@ import MobileNavigation from '@/components/MobileNavigation';
 import CustomCursor from '@/components/CustomCursor';
 import { Toaster } from 'react-hot-toast';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,23 +28,45 @@ export default function RootLayout({
       <head></head>
       <body className={`${inter.className} mx-[20px]`}>
         <div
-          className="h-[375px] md:h-[550px] absolute -left-[20px] top-0"
+          className="h-[325px] md:h-[550px] absolute -left-[20px] top-0"
           style={{
-            backgroundImage: "url('/img/header-gradient.webp')",
             zIndex: -1,
             backgroundPosition: 'center',
             width: 'calc(100% + 20px)',
           }}
-        />
+        >
+          <Image
+            src="/img/header-gradient.webp"
+            alt="Gradient header"
+            width={40}
+            height={40}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+            }}
+          />
+        </div>
         <div
-          className="h-[550px] absolute w-screen -left-[20px] bottom-0"
+          className="h-[325px] md:h-[550px] absolute w-screen -left-[20px] bottom-0"
           style={{
-            backgroundImage: "url('/img/footer-gradient.webp')",
             zIndex: -1,
             backgroundPosition: 'center',
             width: 'calc(100% + 20px)',
           }}
-        />
+        >
+          <Image
+            src="/img/footer-gradient.webp"
+            alt="Gradient footer"
+            width={40}
+            height={40}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+            }}
+          />
+        </div>
         <CustomCursor />
         <Toaster
           position="top-center"
