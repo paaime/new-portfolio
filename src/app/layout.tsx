@@ -24,14 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" suppressHydrationWarning className="relative">
-      <head>
-        <link rel="shortcut icon" type="image/x-icon" href={'/favicon.ico'} />
-        <meta
-          name="keywords"
-          content="Paul-Arthur Aimé, Paul-Arthur Aime, Paul-Arthur, Aimé, Aime, Paul Arthur Aimé, Paul Arthur Aime, Paul Arthur, Arthur Aimé, Arthur Aime, Paul, Arthur, Aimé, Aime, Développeur, Web, Fullstack, React, Next, Node, JavaScript, TypeScript, Freelanc
-e, Freelance, Développeur Web, Développeur Web Fullstack, Développeur Web Fullstack Freelance, Développeur Web Freelance, Développeur Web Fullstack Freelance React, Développeur Web Fullstack Freelance Next, Développeur Web Fullstack Freelance Node, Développeur Web Freelance React, Développeur Web Freelance Next, Développeur Web Freelance Node, Développeur Web Fullstack React, Développeur Web Fullstack Next, Développeur Web Fullstack Node, Développeur Web React, Développeur Web Next, Développeur Web Node"
-        />
-      </head>
+      <head></head>
       <body className={`${inter.className} mx-[20px]`}>
         <div
           className="h-[375px] md:h-[550px] absolute -left-[20px] top-0"

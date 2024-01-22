@@ -45,6 +45,6 @@ export const projects = [
       "LuffySwap est une platforme de staking qui permet de gagner des tokens Luffy. J'ai développé le front-end avec React.Js. J'ai également développé le smart contract avec Solidity.",
     logo: 'luffyswap.png',
     illustration: 'luffyswap.png',
-    link: 'https://luffyswap.com/',
+    link: 'https://luffy-swap-pm1duq6o5-luffyswapprod.vercel.app/',
   },
 ];
