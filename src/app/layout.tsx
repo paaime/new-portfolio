@@ -29,7 +29,7 @@ export default function RootLayout({
         <div
           className="h-[375px] md:h-[550px] absolute -left-[20px] top-0"
           style={{
-            backgroundImage: "url('/img/header-gradient.png')",
+            backgroundImage: "url('/img/header-gradient.webp')",
             zIndex: -1,
             backgroundPosition: 'center',
             width: 'calc(100% + 20px)',
@@ -38,7 +38,7 @@ export default function RootLayout({
         <div
           className="h-[550px] absolute w-screen -left-[20px] bottom-0"
           style={{
-            backgroundImage: "url('/img/footer-gradient.png')",
+            backgroundImage: "url('/img/footer-gradient.webp')",
             zIndex: -1,
             backgroundPosition: 'center',
             width: 'calc(100% + 20px)',
