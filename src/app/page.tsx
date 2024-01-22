@@ -29,9 +29,9 @@ export default function Home() {
       </Spotlight>
       <div className="flex justify-between items-center flex-col md:flex-row mb-24">
         <div className="flex flex-col gap-0 md:gap-4 w-full text-center md:text-left md:w-1/2 mb-5 md:mb-0">
-          <h3 className="text-onyx dark:text-white font-bold text-[32px] md:text-5xl">
+          <h4 className="text-onyx dark:text-white font-bold text-[32px] md:text-5xl">
             Travaillons ensemble
-          </h3>
+          </h4>
           <p className="text-[15px] md:text-xl text-dark-gray">
             Vous avez un projet ? Vous souhaitez collaborer avec moi ?
             N&apos;hésitez pas à me contacter.
