@@ -49,7 +49,7 @@ export default function ProjectCard({
           width={457}
           height={565}
           alt={title}
-          className="hidden md:block rounded-xl -my-[60px] mr-0 h-full w-[300px] lg:w-[457px] self-center"
+          className="hidden md:block rounded-xl -my-[60px] mr-0 h-full min-w-[300px] lg:min-w-[457px] self-center"
         />
       </div>
     </SpotlightCard>
