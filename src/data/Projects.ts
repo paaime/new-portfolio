@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Wilfind － E-commerce augmenté par l'IA",
+    description:
+      "Wilfind est l'un des premiers site de e-commerce avec de l'intelligence artificielle. Il permet de trouver le produit idéal de l'utilisateur grâce à un Chatbot et un algorithme de recommandation. J'ai développé entièrement le front-end en React.Js ainsi que le back-end en Node.Js. J'ai également développé le Chatbot avec OpenAI.",
+    logo: 'wilfind.png',
+    illustration: 'wilfind.png',
+    link: 'https://wilfind.com/',
+  },
+  {
     title: 'Game Collect － Gérer sa collection de jeux vidéo',
     description:
       'Game Collect est une application web qui permet aux joueurs de gérer leur collection de jeux vidéo. Elle est développée avec React ( Next.Js ), Node.Js et MongoDB pour la base de données. Chaque utilisateur peut créer un compte et ajouter des jeux à sa collection, il est sera également possible de connaitre le prix de sa collection.',
@@ -8,12 +16,12 @@ export const projects = [
     link: 'https://gamecollect.vercel.app/',
   },
   {
-    title: "Wilfind － E-commerce augmenté par l'IA",
+    title: "Lucky Slot Palace － Site de casino en ligne",
     description:
-      "Wilfind est l'un des premiers site de e-commerce avec de l'intelligence artificielle. Il permet de trouver le produit idéal de l'utilisateur grâce à un Chatbot et un algorithme de recommandation. J'ai développé entièrement le front-end en React.Js ainsi que le back-end en Node.Js. J'ai également développé le Chatbot avec OpenAI.",
-    logo: 'wilfind.png',
-    illustration: 'wilfind.png',
-    link: 'https://wilfind.com/',
+      "Luck Slot Palace est un site de casino en ligne. J'ai intégré une trentaine de jeux sur le site. J'ai également développé un système de Jackpot progressif ainsi que des ajouts au niveau du front-end.",
+    logo: 'lucky-slot-palace.png',
+    illustration: 'lucky-slot-palace.png',
+    link: 'https://luckyslotdemo.com/',
   },
   {
     title: 'P2A Développement － Site vitrine agence web',

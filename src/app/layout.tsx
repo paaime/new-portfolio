@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Paul-Arthur Aimé | Développeur Web Fullstack',
   description:
-    "Passionné de développement web, je maîtrise les technologies modernes telles que React.js et Node.js. Créateur d'expériences web dynamiques, je m'engage à donner vie à vos projets, de la conception réactive à la gestion côté serveur. Découvrez comment je peux transformer vos idées en applications web robustes et innovantes.",
+    "Passionnée de développement web, je suis spécialisé dans des technologies modernes tels que React.js et Node.js. Découvrez comment je transforme vos concepts en applications web robustes et innovantes.",
 };
 
 export default function RootLayout({
