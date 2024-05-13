@@ -3,14 +3,7 @@ import Button from '../Button';
 
 export default function Hero() {
   return (
-    <div
-      className="hero justify-center max-h-[900px] !md:max-h-[650px] flex-col-reverse gap-12 md:gap-0 mb-20 md:mb-0  md:flex-row flex items-center"
-      style={
-        {
-          // height: '100dvh',
-        }
-      }
-    >
+    <div className="hero justify-center max-h-[900px] !md:max-h-[650px] flex-col-reverse gap-12 md:gap-0 mb-20 md:mb-0  md:flex-row flex items-center">
       <div className="md:w-3/4">
         <h1 className="text-[48px] md:text-[80px] leading-[50px] md:leading-[90px] font-extrabold text-black dark:text-white">
           Paul-Arthur

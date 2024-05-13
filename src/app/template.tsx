@@ -1,6 +1,6 @@
 'use client';
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
@@ -9,9 +9,6 @@ export default function Template({ children }: { children: React.ReactNode }) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        // type: 'spring',
-        // stiffness: 260,
-        // damping: 20,
         duration: 0.8,
       }}
     >

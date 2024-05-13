@@ -7,7 +7,6 @@ import Footer from '@/components/Footer';
 import MobileNavigation from '@/components/MobileNavigation';
 import CustomCursor from '@/components/CustomCursor';
 import { Toaster } from 'react-hot-toast';
-import Head from 'next/head';
 import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -15,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Paul-Arthur Aimé | Développeur Web Fullstack',
   description:
-    "Passionnée de développement web, je suis spécialisé dans des technologies modernes tels que React.js et Node.js. Découvrez comment je transforme vos concepts en applications web robustes et innovantes.",
+    'Passionnée de développement web, je suis spécialisé dans des technologies modernes tels que React.js et Node.js. Découvrez comment je transforme vos concepts en applications web robustes et innovantes.',
 };
 
 export default function RootLayout({
