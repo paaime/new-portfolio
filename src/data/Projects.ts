@@ -5,7 +5,7 @@ export const projects = [
       "Wilfind est l'un des premiers site de e-commerce avec de l'intelligence artificielle. Il permet de trouver le produit idéal de l'utilisateur grâce à un Chatbot et un algorithme de recommandation. J'ai développé entièrement le front-end en React.Js ainsi que le back-end en Node.Js. J'ai également développé le Chatbot avec OpenAI.",
     logo: 'wilfind.png',
     illustration: 'wilfind.png',
-    link: 'https://wilfind.com/',
+    link: 'https://wilfind.paularthur-aime.fr/',
   },
   {
     title: 'Game Collect － Gérer sa collection de jeux vidéo',
@@ -16,7 +16,7 @@ export const projects = [
     link: 'https://gamecollect.vercel.app/',
   },
   {
-    title: "Lucky Slot Palace － Site de casino en ligne",
+    title: 'Lucky Slot Palace － Site de casino en ligne',
     description:
       "Luck Slot Palace est un site de casino en ligne. J'ai intégré une trentaine de jeux sur le site. J'ai également développé un système de Jackpot progressif ainsi que des ajouts au niveau du front-end.",
     logo: 'lucky-slot-palace.png',
